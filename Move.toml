@@ -1,0 +1,12 @@
+[package]
+name = 'staking-farming'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+staking_admin = "0x0830ccc11ae69658b7996304e7bf32416c00acb7f31b12623369812c9c208940"
+alice = "0xa7d5c1040e3739782aa38324462e70d966f192aca4725e5d806f89ea7a0fe052"
